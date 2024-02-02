@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CIPHERS</title>
+</head>
+<body>
+    <main>
+        <h1>CIPHERS</h1>
+        <label for="fileInput">Choose txt file with cipher:</label>
+        <input type="file" id="fileInput" name="fileInput" accept=".txt" />
+        <select id="languageSelect">
+            <option value="en">English</option>
+            <option value="ru">Russian</option>
+        </select>
+        <label for="keyInput">Enter the key (Vigener cipher) or number (Caesar's cipher)</label>
+        <input type="text" id="keyInput">
+        <button id="getEncryptedFile">Get the encrypted file</button>
+        <button id="getDecryptedFile">Get the decrypted file</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
