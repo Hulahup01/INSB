@@ -15,8 +15,8 @@ app.use(
 const kerberosServer = {
     id: 'kerb_tgs',
     key_as_tgs: 'FEDCBA0987654321',
-    key_c_tgs: '1122334455667788',
-    key_tgs_ss: '1234567890ABCDEF',
+    key_c_tgs: 'oaoa123ctgs456',
+    key_tgs_ss: 'keykeyTGS123456',
     clients: [
         { 
             id: 'aboba',

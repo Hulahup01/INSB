@@ -6,7 +6,7 @@ const des = require('./des');
 const app = express();
 const port = 3003;
 
-const key_tgs_ss = '1234567890ABCDEF';
+const key_tgs_ss = 'keykeyTGS123456';
 const server_id = 's_server';
 let local_key_c_ss = '';
 
